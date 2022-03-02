@@ -14,11 +14,16 @@
 
 // P: Make a function that takes in an array. Then we want to map through the array and multiply each element by 2 and return the new number.
 
-function maps(x){
-    return x.map(e=>e*2)
+function doubled(arr){
+    if(arr === undefined || arr.length === 0){
+        console.log('Array is invalid!')
+    } else{
+        return arr.map(element => element*2)
+    }
   }
 
 
 //Test Cases
-maps([1,2,3])
-console.log(maps([2,3,4]), [4,6,8])
+doubled([1,2,3])
+console.log(doubled([2,3,4]), [4,6,8])
+console.log(doubled([]))
