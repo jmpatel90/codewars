@@ -3,6 +3,7 @@
 
 // Example(Input => Output):
 // 348597 => [7,9,5,8,4,3]
+<<<<<<< HEAD
 // 0 => [0]
 
 // P: Are you always given digits?
@@ -22,3 +23,6 @@ function  reverseArray(num){
 reverseArray(123)
 console.log(reverseArray(456), [6,5,4])
 // This doesn't work. Will have to use map.
+=======
+// 0 => [0]
+>>>>>>> a7ca2c94a38db0a8a14deb393ef2d91f650777dd
